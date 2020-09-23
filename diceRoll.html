@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Eric Pogue
+    Class:   Web & Distributed Programming 
+    Description: Eric's sample Dice Roller application.
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>dice roll</title>
+        <link rel="stylesheet" href="diceRoll.css">
+        <script src="diceRoll.js"></script>
+    </head>
+
+    <body onload="RollSixSidedDice()">
+        <h1>Roll dices!</h1>
+        <p>This page is designed to roll 5 six sided dices. You can click on each one to roll seperately or, you can click the 'Roll All' button to roll all five dices at the same time! For your convenience, you can also press the enter key to roll all dices as well, once the page loaded.</p>
+        
+
+      
+
+        <input  id="dice" type="text" value="" size="5" disabled><br><br>
+        <button class="button" type="button" onclick="RollDice()">Roll Dice</button><br><br>
+
+        <input  id="dice1" type="text" value="" size="5" disabled><br><br>
+        <button class="button" type="button" onclick="RollDice1()">Roll Dice</button><br><br>
+
+        <input id="dice2" type="text" value="" size="5" disabled><br><br>
+        <button class="button" type="button" onclick="RollDice2()">Roll Dice</button><br><br>
+
+        <input id="dice3" type="text" value="" size="5" disabled><br><br>
+        <button class="button" type="button" onclick="RollDice3()">Roll Dice</button><br><br>
+        
+        <input id="dice4" type="text" value="" size="5" disabled><br><br>
+        <button class="button" type="button" onclick="RollDice4()">Roll Dice</button><br><br>
+
+          <button class="button1" autofocus="" type="button" onclick="RollSixSidedDice()">Roll All</button><br><br>
+       
+
+    
+    </body>
+</html>
