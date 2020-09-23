@@ -1,9 +1,4 @@
-
-
-
-body{
-	background:#66ff99;
-}
+body{ background:#66ff99;}
 
 h1{
 	text-align: center;
@@ -37,11 +32,10 @@ input { text-align:right;
   color: white;
   padding: 30px;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
   border-radius: 12px;
   margin-top: -30px;
-  margin-left: 90px;
+  margin-left: 150px;
 
 }
 
@@ -50,10 +44,13 @@ input { text-align:right;
   color: white;
   padding: 30px;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
   border-radius: 12px;
-  margin-top: -30px;
-  margin-left: 90px;
+  margin: 0;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
 }
