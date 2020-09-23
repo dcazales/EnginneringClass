@@ -4,7 +4,8 @@ This repository will only contain items for Eric Pouges Software Enginnering 440
 
 Name: Diana Cazales
 Contact information: 
-  school emai: dianacazales@lewisu.edu personal email: dcazales1@gmail.com
+  school emai: dianacazales@lewisu.edu
+  personal email: dcazales1@gmail.com
 
 The repository will contain projects from 8 sprints.
 For now, there are 2 sprints completed. As we complete sprints, this will be updated.
